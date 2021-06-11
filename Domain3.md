@@ -88,12 +88,12 @@
 ~ Formal Model developed for DoD multilevel  
 ~ Divides entities in info sys into Subjects / Objects  
 ~ Model is built on concept of State Machine Model  
-##### 3 Rules to enforce confidentially
-- Simple Security Property
+~ 3 Rules to enforce confidentially
+##### Simple Security Property
 ~ No read up  
-- * Security Property
+##### * Security Property
 ~ No write down  
-- Strong * Property
+##### Strong * Property
 ~ No read/write up or down (stay where you are)   
 
 - *** Biba Integrity Model
@@ -101,12 +101,12 @@
 ~ No subject can depend on object of lesser integrity  
 ~ hierachical lattice of integrity levels
 ~ authorized users must perform correct + safe procedures to protect data integrity  
-##### 3 Rules to enforce integrity
-- Simple integrity axiom  
+~ 3 Rules to enforce integrity
+##### Simple integrity axiom  
 ~ No read down (dont trust lower integrity level stuff = dumb)  
-- * Integrity Property  
+##### * Integrity Property  
 ~ No write up (cant override something smarter than you)  
-- Invocation Property  
+##### Invocation Property  
 ~  No read / write above
 
 - Clark-Wilson
@@ -114,10 +114,10 @@
 E.g amazon why dont let you access DB -> Caz you will break it + only front end can let you use  
 ~ Enforces well-formed transactions through the use of access triple:  
 ~ user -> transformation procedure -> Constrained Data Item  
-##### 3 integrity goals (Separation of duties)
-- Prevents unauthorized users from making modifications  
-- Prevents authorized users from making improper modifications  
-- Maintain internal+external consistency -> reinforces separation of duties
+~ 3 integrity goals (Separation of duties)
+##### Prevents unauthorized users from making modifications  
+##### Prevents authorized users from making improper modifications  
+##### Maintain internal+external consistency -> reinforces separation of duties
 
 - Commercial Models: Brewer-Nash Model
 ~ a.k.a. Chinese Wall  
@@ -153,12 +153,12 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 ~ Memory Management 
 ~ Memory Types - RAM , ROM ,etc
 ~ Virtual Memory  
-##### CPU Modes & Protection Rings
-~ Security mechanism creating boundaries between various processes ensure them do not affect each other
-~ Ring 0 - Operating System Kernal    
-~ Ring 1 - Remaining parts of OS  
-~ Ring 2 - Operating system and I/O drivers and OS utilites   
-~ Ring 3 - App/User activity  
+~ CPU Modes & Protection Rings
+~~~ Security mechanism creating boundaries between various processes ensure them do not affect each other
+~~~ Ring 0 - Operating System Kernal    
+~~~ Ring 1 - Remaining parts of OS  
+~~~ Ring 2 - Operating system and I/O drivers and OS utilites   
+~~~ Ring 3 - App/User activity  
 
 #### System architecture 
 - Defined subset of subjects and objects  
