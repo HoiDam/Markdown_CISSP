@@ -1,5 +1,5 @@
 # Agenda Information Security and Risk Management
-
+20/06/2021 Cybrary
 
 ## Information Security Program
 - Provides the means for achieving strategy

@@ -1,8 +1,7 @@
 # Security engineering and architecture
 09/06/2021 Cybrary
 
-## Part 1 
-- Content
+## Content
 1. Cyptography throughout history
 2. Security Services provided by cryptography
 3. Definitions and terms
@@ -153,14 +152,16 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 ~ Memory Management 
 ~ Memory Types - RAM , ROM ,etc
 ~ Virtual Memory  
-~ CPU Modes & Protection Rings
-~~~ Security mechanism creating boundaries between various processes ensure them do not affect each other
-~~~ Ring 0 - Operating System Kernal    
-~~~ Ring 1 - Remaining parts of OS  
-~~~ Ring 2 - Operating system and I/O drivers and OS utilites   
-~~~ Ring 3 - App/User activity  
+~ CPU Modes & Protection Rings  
 
-#### System architecture 
+##### Detail
+Security mechanism creating boundaries between various processes ensure them do not affect each other
+~~ Ring 0 - Operating System Kernal    
+~~ Ring 1 - Remaining parts of OS  
+~~ Ring 2 - Operating system and I/O drivers and OS utilites   
+~~ Ring 3 - App/User activity   
+
+##### System architecture 
 - Defined subset of subjects and objects  
 - Trusted Computing Base  
 - Security Perimeter  
