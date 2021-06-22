@@ -81,7 +81,7 @@
 - Liability due to noncompliance  
 ~ Due care and due diligence  
 ~ SLAs  
-- DOS / DDOS
+- DOS / DDOS   
 ~ Redundancy  
 ~ Data Dispersion  
 - Corruption, modification, destruction of data
@@ -146,14 +146,15 @@
 - availability of sanitization equipment and tools ?
 
 ### Media Sanitation
-- Disposal, Clearing, Purging, Destroying
-| Data  |  Media |
-| :-----| ----:  |
+- Disposal, Clearing, Purging, Destroying   
+
+| Data | Media |
+| --- | ----------- |
 | Magnetic optical | Hard copy |
 | Electrical | Electronic copy |
 
 ### Removing Data remnants
-- Disposal
+- Disposal  
 ~ Clearing, overwriting: renders data in accessible  
 ~ Purging, degaussing: renders media unusable  
 ~ Destruction, Physical destruction: irreversible by all known techniques
