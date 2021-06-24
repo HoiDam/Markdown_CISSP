@@ -35,10 +35,10 @@
 - Connectionless
 - Unreliable
 - No handshaking
-- Desirable when real time transfer is essential
-~ For Media Streaming , Gaming , Live Time Chat , etc    
-~ FTP use TCP    
-~ TFTP use UDP   
+- Desirable when real time transfer is essential  
+~ For Media Streaming , Gaming , Live Time Chat , etc     
+~ FTP use TCP      
+~ TFTP use UDP     
 
 ### Network Layer
 - Layer 3
@@ -52,8 +52,8 @@
 #### IP
 #### ICMP - IP helpers (Like ping)
 - Weak
-- Threats: 
-~ Ping Flood  
+- Threats:   
+~ Ping Flood    
 ~ SMURF (Uses a spoofed source address target and directed broadcasts to launch ddos)
 
 #### IGMP - Internet Group Message Protocol
@@ -61,7 +61,6 @@
 #### IPSEC
 #### IKE
 #### ISAKMP
-
 
 ### Data Link Layer
 - Layer 2
@@ -82,19 +81,19 @@
 #### ARP
 - Find who belongs to this MAC addresss
 - cache after success finding once
-- Threats
-~ Posioning the cache
+- Threats  
+~ Posioning the cache  
 
 ### Physical Layer
 - Layer 1   
 - All hardware devices have a point of connection
-- Threats:
-~ Theft  
-~ Unauthorized Access   
+- Threats:  
+~ Theft    
+~ Unauthorized Access    
 ~ Vandalism  
-~ Sniffing  
-~ Interference  
-~ Data Emanation
+~ Sniffing   
+~ Interference     
+~ Data Emanation  
 
 ## TCP/IP model
 ### Application Layer
@@ -119,15 +118,15 @@
 - Packet Filtering
 - Screening Routers
 - Fast & Cheap & dumb (not too much dicision making)
-- Inspect Layer 3 & Layer 4 headers
-~ Source and destination IP
-~ Source and Destination Port
-~ Layer 4 Protocol (TCP or UDP)
+- Inspect Layer 3 & Layer 4 headers  
+~ Source and destination IP  
+~ Source and Destination Port  
+~ Layer 4 Protocol (TCP or UDP)  
 ### Layer 5 firewall
-- Stateful filtering 
-~ Awareness of initiation of the session and the state   
+- Stateful filtering  
+~ Awareness of initiation of the session and the state    
 ~ Can block unsolicited replies    
-~ Can understand syntax of lower layer protocols + block misbehaving traffic
+~ Can understand syntax of lower layer protocols + block misbehaving traffic  
 ### Layer 7
 - Smartest / Expensive / Slow
 - Called application proxies/firewalls
@@ -138,8 +137,8 @@
 - Specific to application protocol
 
 ### Packet filter
-- packet filters keep no state
-~ disadvantages : fragment
+- packet filters keep no state  
+~ disadvantages : fragment  
 ~ each packet is evaluated own without regard to previous traffic
 - Rule based access control
 - used on edge of network before stateful firewall for performance reasons
@@ -151,11 +150,11 @@
 ### Proxy firewalls
 - circuit level (Layer 5)
 - Both hide internal host /addressing from outside world
-- application
-~ understand each application when proxing
+- application  
+~ understand each application when proxing  
 ~ allows for additional security since inspecting data for protocol violations
 ##### advantages
-- extra sec
+- extra sec  
 - advanced loging / auditing / access control features
 ##### disadvatages
 - extra processing CPU (slower)
@@ -163,7 +162,7 @@
 
 ### NAT/PAT
 - Network address translation
--  NAT  1 to 1 (internal:external address) ; PAT Many address(can be different ports) to 1 external (different ports)
+- NAT  1 to 1 (internal:external address) ; PAT Many address(can be different ports) to 1 external (different ports)
 - runs on proxy firewall
 #### advantages
 - allow use private addresss Internally
@@ -212,25 +211,25 @@
 
 ## Remote access
 ### Dial Up
-- PPP 
+- PPP   
 ~ PAP , CHAP , EAP
 ### Tunneling
-- PPTP (not enough)
-~ PAP (plain txt , X use) , CHAP (challenge handshake , problem : only use password) , EAP (extensible authenication , not only password)
-~ MPPE (microsoft)
-- GRE (encapsulation / packaging)
-~ point to point link between two networks
-~ extra ip header to origin packet
+- PPTP (not enough)  
+~ PAP (plain txt , X use) , CHAP (challenge handshake , problem : only use password) , EAP (extensible authenication , not only password)  
+~ MPPE (microsoft)  
+- GRE (encapsulation / packaging)  
+~ point to point link between two networks  
+~ extra ip header to origin packet  
 
-- L2TP (cisco, no security built , just encapsulation to use IPSec)
-~ IPSec
-- IPSec
+- L2TP (cisco, no security built , just encapsulation to use IPSec)  
+~ IPSec  
+- IPSec  
 ### Wireless
-- Encryption
-~ WEP , WPA , WPA II
+- Encryption  
+~ WEP , WPA , WPA II  
 ### Authentication
-- 802.1x
-
+- 802.1x  
+ 
 ## Wireless Communications
 
 ### wireless problems
@@ -240,20 +239,20 @@
 - unauthorized access points(Man in the middle)
 
 ### Encryption
-- WEP
+- WEP  
 ~ Shared authentication passwords  
 ~ weak IV (24bits)  
 ~ IV transmitted in clear text  
 ~ RC-4  
 ~ Easily crackable  
-~ Only option for 802.11b  
-- WPA  
-~ Stronger IV  
-~ Introduced TKIP  (temporal key integrity protocol)
-~ Still RC-4  
-- WPA2   
-~ AES    
-~ CCMP  
+~ Only option for 802.11b    
+- WPA   
+~ Stronger IV    
+~ Introduced TKIP  (temporal key integrity protocol)  
+~ Still RC-4    
+- WPA2    
+~ AES     
+~ CCMP   
 ~ Not backwards compatible  
 
 ### Authentication
@@ -264,12 +263,12 @@
 ### modes
 - discovery mode
 - automatic pairing
-- Blue jacking
+- Blue jacking   
 ~ send spam to nearby bluetooth devices
-- Blue snarfing 
+- Blue snarfing   
 ~ copies information off of remote devices
-- blue bugging
-~ more serious  
-~ allow full use of phone  
-~ allow one to make calls  
-~ eavesdrop on calls  
+- Blue bugging  
+~ more serious   
+~ allow full use of phone    
+~ allow one to make calls    
+~ eavesdrop on calls   

@@ -43,7 +43,7 @@
 
 ## Attack Methodology  
 
-1. Reconnaissance  
+1. Reconnaissance(偵察  
 ~ Whole DB, Company Website, Job Search Engines, Social Networking  
 2. Footprinting(knowing the network)  
 ~ mapping the network(Nmap), ICMP ping sweeps, DNS zone transfers  
@@ -66,7 +66,7 @@
 ~ Accreditation  
 ~ Security architectures  
 ~ Policy development  
-- Develop a cohesive, well-planned,operational security tesing program
+- Develop a cohesive(團結), well-planned,operational security tesing program
 
 ### Pen test consideration
 - 3 basic requirements:  
@@ -166,3 +166,123 @@
 ~ Generating spurious data in traffic to make traffic analysis more difficult e.g. sending out decoy attacks   
 ~ amount and nature of traffic may be masked  
 ~ attempt to keep traffic constant so no information can be gained
+
+## Protocol Analyzers (sniffers) and Privacy
+- Promiscuous mode
+- Bridging/Switching affect the packet capture
+
+## IDS 
+- tool in a layered security model
+### Purpose
+- identify suspcious activity
+- log activity
+- respond (alert people)
+- needs an interface in "promiscuous" mode
+- port mirroring/ span needs to be enabled to view traffic on a switch
+### Categories
+- Host Based Intrusion detection system
+- Networks Intrusion detection system
+### IDS Components
+- Both types of IDS have several components that make up the product
+1. Sensor (Data collector)  
+~ On network segments(NIDS)  
+~ On Hosts(HIDS)  
+2. Analysis Engine  
+~ Analyze data collected by the sensor, determines if there is sus activity  
+3. signature database  
+~ Used by Analysis Engine, defines signatures of previously know attacks  
+4. UI and reporting  
+~ the way system interacts with users  
+
+### HIDS
+- Examine the operation of SINGLE system independently to determine of anything "of note" is going on  
+- e.g. Logins/ system log files/ app log files
+
+#### Advantages of HIDS
+- Can be OS and application specific - might understand the latest attack against a certain service on a host  
+- they can look at data after it's been decrypted
+
+#### Disadvantages of HIDS
+- Only protect one machine
+- Use local system resources (CPU/Memory)
+- Dont see whats going on for other machines
+- Scalability
+- could be disabled if machine is hacked
+
+### Network Based IDS
+- Entire network and all associated machines
+- Focuses specifically on network traffic, in this case the sensor is sometimes called traffic collector
+- e.g. SRC IP, DEST IP, Protocol, Port Numbers, Data content
+- Look for DOS attack/ Port scans/ malicious content/ vulnerability tests/ tunneling/ brute force attacks
+- watch the internal network for policy violations e.g. detecting instant messaging or streaming video (port number cant block)
+- Should put in DMZ
+
+### Advantages of NIDS
+- Single sensor can cover whole network
+- Deployment Easier
+- Can see things that are happening on multiple machine , bigger picture and may see distributed attacks that a HIDS would miss
+
+### Disadvantage of NIDS
+- Data must be unencrypted for NIDS to analyze (Many protocols are encrypted)
+- Switches cause problems for NIDS (port span should be implemented)
+- only on the perimeter, missing things on the inside
+- Must be able to handle lots of data to be effective
+- Does not see whats going on a server directly 
+
+## IDS vs IPS
+- IDS - Passive device
+- IPS - Active
+
+### Analysis Engines
+
+#### Pattern Matching 
+- Signature based
+- Most network attacks have distinct signatures that is data that is passed between attacker and victim
+- A sign based NIDS has a adatabase of know attack signatures, and compares network traffic against this database
+- Concern for sign based systems
+1. pay for vendor
+2. keep sign updated
+3. cant deal with 0 day attacks
+
+#### Profile Matching
+- Anomaly/ Behavior/ Heuristics
+- Anomaly based systems - look for changes in normal behavior
+- let anomaly based system learn what normal behavior is over time e.g. creating baseline
+- anomaly based system will then look for traffic types and volume that is outside of the normal behavior
+
+##### Profile Matching Advantages
+- able to detect 0 days
+- able to detect behavioral changes that might not be technical attacks
+
+##### Profile Matching Disadvantages
+- Lots of False positives
+- often ignored due to reason above
+- requires much more skilled analyst
+
+### Bypassing an IDS
+- Evasion attack (flying under the radar)  
+~ Many small attacks from different directions  
+- Insertion attack (geared toward sign based systems)  
+~ Adding meaningless info (without modifying the payload) to a known attack(加d垃圾落去矇混過關)  
+
+### IDS Rules Based
+- Uses expert system/ knowledge based systems
+- Use a db of knowledge and an "inference engine" to try to mimic human knowledge
+- Promiscuous mode
+~ Network interfaces generally only look at packets specifically intended for their MAC address
+~ Put network interfaces to Promiscous mode TO Accomplish sniffing, network analysis, or IDS functionality
+
+### Honeypot
+- Deployment  
+~ Pseudo Flaw: Loophole purposely added to OS or application to trap intruders  
+~ Sacrificial lamb system on the network  
+~ Administrators hope that intruders will attack this system instead of their production systems  
+~ Enticing caz many ports are open and services are running
+- Enticement(誘惑) vs Entrapment(誘捕)
+
+### Padded Cell and Vulnerability Tools
+- Concept used in software prog where a "safe" environment is created for app and processes to run in (similar to VM)
+- Concept used in IDS where identified intruder is moved to a "safe" environment without their knowing
+- Simulated env to keep intruder happy&busy (leave production systems alone)
+- A.K.A Self mutating honeypot, Tarpit
+
