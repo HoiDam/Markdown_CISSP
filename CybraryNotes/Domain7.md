@@ -11,12 +11,12 @@
 - Incident response  
 ~ Corporate incident response polics, procedures and guidelines should be in place  
 ~ Legal, HR, Executive management, key business units must be involved  
-~ If handling in-house, an incident response team must be in plcae
-~ List of outside agencies and resources to contact or report to Computer Emergency Response Team(CERT)
-~ Steps on how to secure and preservev evidence  
-~ Steps on how to search for evidence  
-~ List of items that should be included on the report   
-~ A list that indicates how the different systems should be treated in this type of situation  
+~ If handling in-house, an incident response team must be in plcae  
+~ List of outside agencies and resources to contact or report to Computer Emergency Response Team(CERT)  
+~ Steps on how to secure and preservev evidence   
+~ Steps on how to search for evidence   
+~ List of items that should be included on the report    
+~ A list that indicates how the different systems should be treated in this type of situation   
 
 ### 2. Incident response and handling 
 - Triage(v): [Detection, Identification, Notification]
@@ -25,19 +25,19 @@
 - Analysis and Tracking
 
 ### 3. Recovery and feedback
-- Recovery and Repair: Restoration of the system to operations.   
-~ Not practical to restore to original status(since got attacked with low security)
+- Recovery and Repair: Restoration of the system to operations     
+~ Not practical to restore to original status(since got attacked with low security)  
 - Provide Feedback: Document (important step)
 
 ## Computer Forensics (鑒證)
-- = Discipline of using proven methods toward the collection, preservation, validation, identification, analysis, interpretation, documentation, presentation of digital evidence
-- IOCE and SWGDE: Two entities that provide forensics guidelines and priniciples as follows  
+- = Discipline of using proven methods toward the collection, preservation, validation, identification, analysis, interpretation, documentation, presentation of digital evidence  
+- IOCE and SWGDE: Two entities that provide forensics guidelines and priniciples as follows   
 ~ All forensic principles must be applied to digital evidence  
 ~ Evidence should not be altered as a result of collection  
 ~ Must be trained person to access the digital evidence  
-~ All activity relating the seizure, access, storage, transfer of digital evidence must be fully documented and available for review  
-~ An individual is responsible for actions affecting digital evidence while that evidence is in their possession  
-~ Any entity responsible for seizing, accessing, storing, transferring digital evidence is resposbile for compliance with these principles  
+~ All activity relating the seizure, access, storage, transfer of digital evidence must be fully documented and available for review    
+~ An individual is responsible for actions affecting digital evidence while that evidence is in their possession   
+~ Any entity responsible for seizing, accessing, storing, transferring digital evidence is resposbile for compliance with these principles    
 
 ## Five Rules of Digital Evidence
 - Be authentic(確鑿)  
@@ -49,20 +49,20 @@
 ## Forensics investigation process
 
 ### Identification
-- Locard's principle of exchange: When crime is committed, attacker takes something and leaves something behind. e.g. DNA, knowledge, Behaviour
-- Help us identify aspects of responsible party
+- Locard's principle of exchange: When crime is committed, attacker takes something and leaves something behind. e.g. DNA, knowledge, Behaviour  
+- Help us identify aspects of responsible party  
 
 ### Perservation
 - Chain of custody ***   
-~ Must be well documented  
-~ History of how evidence was [collected, analyzed, transported, preserved]  
-~ Necessary because digital evidence can be manipulated so easily  
-- Hashing algorithms are used to show the integrity of the eveidence has not been modified by the investigation process
+~ Must be well documented    
+~ History of how evidence was [collected, analyzed, transported, preserved]    
+~ Necessary because digital evidence can be manipulated so easily    
+- Hashing algorithms are used to show the integrity of the eveidence has not been modified by the investigation process  
 
 ### Collection
-- Minimize handling/ corruption of evidence e.g. (doing 3 hashing on copying the hdd)
-- Keep detailed logs of your actions
-- Comply with the 5 rules of digital evidence
+- Minimize handling/ corruption of evidence e.g. (doing 3 hashing on copying the hdd)  
+- Keep detailed logs of your actions  
+- Comply with the 5 rules of digital evidence  
 - Do not exceed your knowledge
 - Follow organization's secuirty policy
 - Capture an accurate image of the system
@@ -154,40 +154,40 @@
 - RAID-5 Disk striping with parity: Fault tolerance + speed
 
 ### Redundant Servers
-- Primary server mirrors data to secondary server  
-~ primary fails it rollover to secondary  
+- Primary server mirrors data to secondary server     
+~ primary fails it rollover to secondary    
 ~ server fault tolerance  
 
 ### Clustering
 - Group of servers that are managed as a single system 
-- Higher availability, Greater scalability, easier to manage instead of instead of individual systems
-- May provide redundancy, load balancing, or both.  
+- Higher availability, Greater scalability, easier to manage instead of instead of individual systems  
+- May provide redundancy, load balancing, or both    
 ~ Active/Passive     
 ~ Active/Active   
-- Cluster looks like google server the user (server farm)
+- Cluster looks like google server the user (server farm)  
 
 ### Uninteruptible Power Supply
 - Issue to consider  
 ~ Size of load UPS can support    
-~ How long it can support this load(battery duration)   
+~ How long it can support this load(battery duration)    
 ~ Speed the UPS takes on the load when the primary power sources fails   
-~ Physical space required
+~ Physical space required  
 - Desirable Features  
 ~ Long battery life   
-~ Remote diagnostic software  
-~ EMI/RFI filters to prevent data errors caused by electrical noise  
-~ High MTBF values  
-~ Allow for automatic shudown of system  
+~ Remote diagnostic software   
+~ EMI/RFI filters to prevent data errors caused by electrical noise    
+~ High MTBF values   
+~ Allow for automatic shudown of system    
 
 ## Backups
-- Backup software and having backup hardware is a large part of network availability
-- Important to be able to restore data   
+- Backup software and having backup hardware is a large part of network availability  
+- Important to be able to restore data    
 ~ If a hard drive fails  
-~ A disaster take place  
-~ Some types of software corruption
+~ A disaster take place   
+~ Some types of software corruption  
 
 ### Full backup  
-- Archive bit is reset
+- Archive bit is reset  
 
 ### Incremental backup  
 - Backs up all filese that have been modified since last backup  
