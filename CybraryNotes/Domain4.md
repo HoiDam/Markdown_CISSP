@@ -21,7 +21,7 @@
 - Only layer without protocol
 - Present data in universal format (every one understand)
 - remove redundancy from files (compression)
-- concern encryption , compression , formatting
+- concern encryption, compression, formatting
 
 ### Session Layer
 - Layer 5
@@ -35,7 +35,7 @@
 - Connectionless
 - Unreliable
 - No handshaking
-- Desirable when real time transfer is essential  
+- Desirable when real time transfer is essential   
 ~ For Media Streaming , Gaming , Live Time Chat , etc     
 ~ FTP use TCP      
 ~ TFTP use UDP     
@@ -56,24 +56,24 @@
 ~ Ping Flood    
 ~ SMURF (Uses a spoofed source address target and directed broadcasts to launch ddos)
 
-#### IGMP - Internet Group Message Protocol
+#### IGMP - Internet Group Message Protocol  
 #### IGRP
 #### IPSEC
 #### IKE
 #### ISAKMP
 
 ### Data Link Layer
-- Layer 2
+- Layer 2  
 - Only Layer have 2 sub layers 
 #### LLC - Logical Link Control
-- Error Detection
+- Error Detection  
 #### MAC - Media Access Control 
-- Physical
-- Good Local Identifier / Bad Global Identifier
+- Physical  
+- Good Local Identifier / Bad Global Identifier  
 - CSMA / CD sense mulitple access with collision detection for 802.3 ethernet
 - CSMA / CA sense multiple access with Collision avoidence for 802.11 wireless
-- Token Passing : 24 bit control frame passed around the network environemnt with purpose of determining which system can transmit data (e.g.輪流發言). Only 1 token + cannot communicate without token
-#### Switch 
+- Token Passing : 24 bit control frame passed around the network environemnt with purpose of determining which system can transmit data (e.g.輪流發言). Only 1 token + cannot communicate without token  
+#### Switch  
 - Use Mac to direct traffic
 - isolate trafficc into domains
 - does not isolate broadcasts natively
@@ -137,7 +137,7 @@
 - Specific to application protocol
 
 ### Packet filter
-- packet filters keep no state  
+- packet filters keep no state   
 ~ disadvantages : fragment  
 ~ each packet is evaluated own without regard to previous traffic
 - Rule based access control
@@ -161,9 +161,9 @@
 - proxies only understand protocols they were written to understand -> separte app proxy for each protocol
 
 ### NAT/PAT
-- Network address translation
+- Network address translation 
 - NAT  1 to 1 (internal:external address) ; PAT Many address(can be different ports) to 1 external (different ports)
-- runs on proxy firewall
+- runs on proxy firewall 
 #### advantages
 - allow use private addresss Internally
 - allow use of RFC1918 IP addresss
@@ -211,21 +211,21 @@
 
 ## Remote access
 ### Dial Up
-- PPP   
-~ PAP , CHAP , EAP
+- PPP    
+~ PAP , CHAP , EAP  
 ### Tunneling
-- PPTP (not enough)  
-~ PAP (plain txt , X use) , CHAP (challenge handshake , problem : only use password) , EAP (extensible authenication , not only password)  
-~ MPPE (microsoft)  
-- GRE (encapsulation / packaging)  
+- PPTP (not enough)   
+~ PAP (plain txt , X use) , CHAP (challenge handshake , problem : only use password) , EAP (extensible authenication , not only password)   
+~ MPPE (microsoft)   
+- GRE (encapsulation / packaging)    
 ~ point to point link between two networks  
 ~ extra ip header to origin packet  
 
-- L2TP (cisco, no security built , just encapsulation to use IPSec)  
-~ IPSec  
-- IPSec  
+- L2TP (cisco, no security built , just encapsulation to use IPSec)   
+~ IPSec   
+- IPSec   
 ### Wireless
-- Encryption  
+- Encryption   
 ~ WEP , WPA , WPA II  
 ### Authentication
 - 802.1x  
@@ -240,15 +240,15 @@
 
 ### Encryption
 - WEP  
-~ Shared authentication passwords  
-~ weak IV (24bits)  
-~ IV transmitted in clear text  
-~ RC-4  
-~ Easily crackable  
-~ Only option for 802.11b    
-- WPA   
-~ Stronger IV    
-~ Introduced TKIP  (temporal key integrity protocol)  
+~ Shared authentication passwords   
+~ weak IV (24bits)   
+~ IV transmitted in clear text   
+~ RC-4   
+~ Easily crackable   
+~ Only option for 802.11b     
+- WPA    
+~ Stronger IV     
+~ Introduced TKIP  (temporal key integrity protocol)   
 ~ Still RC-4    
 - WPA2    
 ~ AES     
@@ -256,18 +256,18 @@
 ~ Not backwards compatible  
 
 ### Authentication
-= Enterprice use 802.1X autehntication to have individual passwords for individual users (RADIUS)
+= Enterprice use 802.1X autehntication to have individual passwords for individual users (RADIUS)  
 
 ## Bluetooth
-- Personal area network protocol 
+- Personal area network protocol  
 ### modes
 - discovery mode
-- automatic pairing
-- Blue jacking   
-~ send spam to nearby bluetooth devices
+- automatic pairing 
+- Blue jacking    
+~ send spam to nearby bluetooth devices  
 - Blue snarfing   
-~ copies information off of remote devices
-- Blue bugging  
+~ copies information off of remote devices  
+- Blue bugging   
 ~ more serious   
 ~ allow full use of phone    
 ~ allow one to make calls    

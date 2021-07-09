@@ -90,20 +90,19 @@
 - cookies
 
 ### Type 3 : something you are
-- Biometrics
+- Biometrics  
 ~ Static : not significantly change over time e.g. finger print , hand geometry , iris , retina
 ~ Dynamic : Based on behavioral traits e.g voice , gait , signature , keyboard cadence
 - Biometrics Concerns
-#### Accuracy
-~ Type I Error: False rejection
-~ Type II error: False acceptance
-~ As FRR goes down , FAR goes up , vice versa
-~ Level which two meet = CER ( Crossover error rate). Lower CER = more accurate
-~ Iris Scans = most accurate
+#### Accuracy  
+~ Type I Error: False rejection  
+~ Type II error: False acceptance  
+~ As FRR goes down , FAR goes up , vice versa   
+~ Level which two meet = CER ( Crossover error rate). Lower CER = more accurate  
+~ Iris Scans = most accurate  
 
 ### Type 4 : something you do
-
-## Authorization
+## Authorization 
 - Ensure someone authenticaed is allowed access toresource
 - preventative control
 - race conditions would try to cause authorization to happen before authentication

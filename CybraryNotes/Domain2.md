@@ -43,7 +43,6 @@
 - The time sensitivity of the data. Usually driven by the understanding of how much revenue a specific asset generates and without that asset there will be lose of revenue
 
 ## Data Protection
-
 ### Location and Access
 - Though the data lifecycle model doesnot specify requirements for location and access, these two factors are essentail in planning the implementation for access controls
 
@@ -73,24 +72,24 @@
 - *Physical security*
 
 ## Threats to data storage
-- Unauthorized usage/access
+- Unauthorized usage/access  
 ~ Strong authentication  
 ~ Encryption  
 ~ Obfuscation, anonymization, tokenization,. masking  
 ~ organizational policies / layered defense  
-- Liability due to noncompliance  
+- Liability due to noncompliance   
 ~ Due care and due diligence  
 ~ SLAs  
-- DOS / DDOS   
+- DOS / DDOS    
 ~ Redundancy  
 ~ Data Dispersion  
-- Corruption, modification, destruction of data
+- Corruption, modification, destruction of data  
 ~ Hashes/ Digitally signed files
-- Data leakage and breaches
+- Data leakage and breaches  
 ~ DLP  
-- Theft or accidental media loss
+- Theft or accidental media loss  
 ~ TPM  
-- Malware attack
+- Malware attack  
 ~ Anti-malware
 - improper treatment or sanitization of data at end of lifecycle 
 
@@ -137,7 +136,6 @@
 - Consideration : Encryption, Monitoring, Granular retrieval, Electronic discovery, Backup and recovery, media type, restoration procedures
 
 ## Secure Data Disposal
-
 ### Sanitizing media
 - what types(optical non rewritable, magetic) and size (TB,MB) need to be sanitized
 - Confidentialiy of data ?
@@ -154,7 +152,7 @@
 | Electrical | Electronic copy |
 
 ### Removing Data remnants
-- Disposal  
+- Disposal   
 ~ Clearing, overwriting: renders data in accessible  
 ~ Purging, degaussing: renders media unusable  
 ~ Destruction, Physical destruction: irreversible by all known techniques

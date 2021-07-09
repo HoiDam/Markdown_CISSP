@@ -75,14 +75,14 @@
 ~ Responsible for business operations  
 ~ Provide direction to ensure security is implemented in such a way as to meet business objectives  
 ~ Responsible for security enforcement and direction  
-~ Responsible for day2day monitoring / reporting / disciplinary actions / compliance  
+~ Responsible for day to day monitoring / reporting / disciplinary actions / compliance  
 
 #### Security Practitioners 
 ~ Responsible for proper implementaion of security requirements in their IT systems  
 ~ Support or use the risk management process to identify and assess new potential risk and implemnt new security controls as needed to safeguard their IT system
 
 #### Auditors
-~ Objective Evaluation of controls and policies to ensure that ehy are being implemented and are effective
+~ Objective Evaluation of controls and policies to ensure that ehy are being implemented and are effective  
 ~ if internal auditing is in place , auditors should not report to the head of a business unit , but rather to the Chief operation officer or some other entity without direct stake in result  
 ~ auditors document and do not modify  
 
@@ -113,7 +113,7 @@
 - Identify assets -> identify threats -> identify existing controls ->
  identify -vulnerabilities -> identify consequences -- feed into -> risk assessment process
 
-- Methods to identify risk
+- Methods to identify risk  
 ~ Sources of risk documentation  
 ~ Audit reports  
 ~ Interviews with SMEs Public media  
@@ -124,12 +124,12 @@
 ~ Interviews and workshops  
 ~ Threat intelligence services   
 
-- Alignment with Business Goals and Objectives
+- Alignment with Business Goals and Objectives  
 ~ First and most important step for a CISM is to understand business . Review organizational vision and strategy   
 ~ Look beyond IT - Risk is measured by the impact the risk has on the business, not on a particular system  
-~ In order for risk to be integrated into the enterprise, senior management must be supportive and involved
-~~ management funds and support the risk management process we will have what we need to be successful
-~~ good metrics = have attainable objectvies help us accomplish our goals
+~ In order for risk to be integrated into the enterprise, senior management must be supportive and involved  
+~~ management funds and support the risk management process we will have what we need to be successful  
+~~ good metrics = have attainable objectvies help us accomplish our goals  
 ~~ good communication and transparency help us make risk-aware business decisions
 
 - Organizational structure and impact on risk
@@ -140,19 +140,19 @@
 ~ 1st line business unit -> 2nd line risk and compliance -> 3rd line audit  
 
 ### Assessment
-- Qualitative 
+- Qualitative  
 ~ Subjective analysis to help prioritize probability and impact of risk events  
 ~ May use Delphi Technique  
-- Quantitative
+- Quantitative  
 ~ Providing a dollar value to a particular risk event    
 ~ Much more sophisticated in nature, a quantitative analysis if much more difficult and requires a special skill set  
 ~ Business decisions are made on a quantitative analysis  
 ~ Can't exist on its own. Quantitative analysis depends on qualitative information
-- Qualitative Assessments
+- Qualitative Assessments  
 ~ Assess risks based on subjective input  
 ~ Uses terms like high, medium, low   
 ~ Inexpensive, and quick way to begin the prioritization and ranking of risks
-- Quantitative Analysis Formulas and Terms
+- Quantitative Analysis Formulas and Terms  
 ~ Asset Value: Dollar figure that represents what the asset is worth  
 ~ Exposure Factor: The percentage of loss that is expected to result in the manifestation of a particular risk event  
 ~ Single Loss Expectancy: Dollar figure that represents the cost of a single occurrence of a threat instance  
@@ -163,21 +163,21 @@
 
 
 ### Mitigation
-- Steps for Quantitative Analysis 
+- Steps for Quantitative Analysis   
 ~ AV -> EF -> SLE -> ARO -> ALE -> Perform cost/benefit analysis of countermeasures
 
 - Loop
 ~ IT Risk Identification -> IT Risk Assessment -> Risk response and mitigation -> Risk and Control Monitoring and Reporting -> IT...
 
-- Risk assessment : Dicatate risk response
+- Risk assessment : Dicatate risk response  
 ~ Reduce  
 ~ Avoidance  
 ~ Transfer  
 ~ Accept  
 ~ Rejection  
 
-- Risk reduction: 
-~ action is taken to lessen frequencey/ impact of a risk
+- Risk reduction:   
+~ action is taken to lessen frequencey/ impact of a risk  
 ~ may require the use of several controls until it reaches levels of risk acceptance or risk tolerance  
 
 - Examples
@@ -190,27 +190,27 @@
 
 - Ulitmate risk reduction = avoidance
 
-- Risk Transference :
+- Risk Transference :  
 ~ decision to reduce loss through sharing that risk with another organization  
 ~ Service Level Agreements and contracts establish the degree of transference  
 ~ Cant transfer liability  
 
-- Risk Acceptance examples:
+- Risk Acceptance examples :  
 ~ Provides no active mitigation  
-~ based on a cost/ benefit analysis , it is determined the cost of the control is less than the potential for loss  
-~ sometimes acceptance is the only choice
-~ risk acceptance still includes due diligence, and can still be used to indicate good business decisions were made  
+~ based on a cost/ benefit analysis , it is determined the cost of the control is less than the potential for loss   
+~ sometimes acceptance is the only choice  
+~ risk acceptance still includes due diligence, and can still be used to indicate good business decisions were made   
 ~ level of risk and impact is always changing, so reglular reviews are needed
 
 ### Monitoring
-- Risk Monitoring and Reporting
-~ Risk response designed and implemented based on a risk assessment that was conducted at a single point in time  
-~ Because of changing nature of risk and associated controls, ongoing monitoring is an essential step of the risk management life cycle  
-~ controls can become less effective   
-~ operational environment may change  
+- Risk Monitoring and Reporting  
+~ Risk response designed and implemented based on a risk assessment that was conducted at a single point in time   
+~ Because of changing nature of risk and associated controls, ongoing monitoring is an essential step of the risk management life cycle   
+~ controls can become less effective    
+~ operational environment may change   
 ~ new threats , tech , vulnerabilities may emerge  
 
-- Key Risk Indicators 
+- Key Risk Indicators   
 ~ Provide early warning  
 ~ Provide backward-looking view on risk events  
 ~ Enable documentation and analysis of trends  
@@ -219,24 +219,24 @@
 
 ## Legal Considerations
 
-### Who is at fault
+### - Who is at fault
 #### Failure of management to execute Due Care and/or Due Diligence can be termed negligence (Culpable neligence)
 #### Prudent Man Rule
- Perform duties that prudent people would exercise in similar circumstances  
-~ Example: Due Diligence , researching industry standards and best practices  
-~ Due CareL setting and enforcing policy to bring organization into compliance  
+- Perform duties that prudent people would exercise in similar circumstances    
+~ Example: Due Diligence, researching industry standards and best practices  
+~ Due Care setting and enforcing policy to bring organization into compliance  
 #### Downstream Libilities
 #### Integrated technology with other companies can extend one's responsibility outside the normal bounds  
 
-### Criminal Law
+### - Criminal Law
 - Beyond a reasonable doubt : can be difficult to meet this burden of proof in computer-related crimes
-- Penalties : Financial, Jail-time, death
-~ Felonies : More serious of the. Often penalty results in incaraceration of at least a year  
-~ Misdemeanors : Normally the less serious of the two with fines or jail-time of less than one year  
-- Goal of criminal penalties : Punishment , Deterrence
+- Penalties : Financial, Jail-time, death  
+~ Felonies(重罪) : More serious of the. Often penalty results in incaraceration of at least a year  
+~ Misdemeanors(輕罪) : Normally the less serious of the two with fines or jail-time of less than one year  
+- Goal of criminal penalties : Punishment, Deterrence
 
-### Administrative (Regulatory) Law
-- Defines standards of performance and regulates conduct for specific
+### - Administrative (Regulatory) Law
+- Defines standards of performance and regulates conduct for specific  
 ~ Banking (Basel II)   
 ~ Energy (EPAct) of 2005   
 ~ Health Care (HIPAA)  
@@ -244,10 +244,10 @@
 - Penalties consist of financial or imprisonment
 
 ### Intellectual Property
-- Intellectual Property Law
+- Intellectual Property Law  
 ~ Protecting products of the mind  
 ~ Company must take steps to protect resources covered by these laws or these laws may not protect them   
-- Main international organization run by the UN is the World Intellectual Property Organization 
+- Main international organization run by the UN is the World Intellectual Property Organization   
 - Licensing is the most prevalent violation, followed by plagiarism, piracy and corporate espionage
 
 ## Knowledge Transfer
@@ -255,7 +255,7 @@
 - Goal of Knowledge transfer is to modify employee behaviour  
 
 ### Knowledge transfer rules
-- Security Awareness Training
+- Security Awareness Training  
 ~ Employees cannot and will not follow the directives and procedures if they do not know about them   
 ~ Employees must know expectations and ramification
 ~ Employees recognition award program  
@@ -269,25 +269,25 @@
 - BCP ~= unbrella
 
 ### Categories of Disruptions
-- Non-disaster: Inconvenience. e.g. Hard drive failure
+- Non-disaster: Inconvenience. e.g. Hard drive failure  
 ~ Disruption of service  
 ~ Device malfunction   
-- Emergency/Crisis
+- Emergency/Crisis  
 ~ Urgent, potential for loss of life / property
-- Disaster
+- Disaster  
 ~ entire facilitiy unusable for a day or longer  
-- Catastrophe
+- Catastrophe  
 ~ Destroys facility
 
-### Company should understand and prepared for each category
+#### ~ Company should understand and prepared for each category
 
-### anyone can declare an emergency
-### ONLY BCP coordionator can declare disaster (failover act)
+#### ~ Anyone can declare an emergency
+#### ~ ONLY BCP coordionator can declare disaster (failover act)
 
 ### BCP frameworks
-- Standards help solve issues of inconsistency in terms, definitions and documents (within the organization)
-- Following institutes will provide guidance on BCP / DRP:
-~ Disaster Recovery Institute international
+- Standards help solve issues of inconsistency in terms, definitions and documents (within the organization)  
+- Following institutes will provide guidance on BCP / DRP:    
+~ Disaster Recovery Institute international  
 ~ NIST 800-34 rev1   
 ~ ISO 27031  
 ~ ISC2.org four processes of business continuity
@@ -302,10 +302,10 @@
 4. Approval and implementation
 
 ##### 1 Project scope and planing
-- Acquire BCP Policy Statement from senior management
-- Business Organization Anaylsis: Structured analysis of the business organizational assets
-- BCP team creation, including Project Manager. Should be cross-functional team, including representation of senior management 
-- An assessment of the resources available and commitment to support BCP Process from Senior Management 
+- Acquire BCP Policy Statement from senior management  
+- Business Organization Anaylsis: Structured analysis of the business organizational assets  
+- BCP team creation, including Project Manager. Should be cross-functional team, including representation of senior management  
+- An assessment of the resources available and commitment to support BCP Process from Senior Management  
 - An analysis of the legal and regulatory landscape that gov an organizations response to a catastrophic event
 
 ###### BCP team selection
@@ -330,9 +330,9 @@
 - BIA will help prioritize recovery priorites
 
 ###### Identify priorities
-- Create an in-depth list of business processes and their impact on the organization
-- Often delegated to individual departments for accuracy and buy-in
-- Criticality is driven by the amount of loss the organization will suffer if the resources is unavailable
+- Create an in-depth list of business processes and their impact on the organization  
+- Often delegated to individual departments for accuracy and buy-in  
+- Criticality is driven by the amount of loss the organization will suffer if the resources is unavailable  
 ~ Maximum Toleratble Downtime/ Outage: Lonest time the function can be inoperable before causing a loss to senior management that is unacceptable   
 ~ Recovery time objective: This is amount of time in which you think you can feasibly recover the function is the event of disruption  
 ~ Recovery Point Objective: Tolerance for data loss  
@@ -368,14 +368,14 @@
 - hardened systems
 
 ##### 4 Plan approval and implementation
-- Plan approval 
+- Plan approval  
 ~ if possible , CEO should endorse plan  , otherwise another senior officer  
 ~ indicates dedication of the business to the process of business continuity planning
-- Plan implementation
+- Plan implementation   
 ~ Create implementation guide/ schedule  
 ~ Deploy resources  
 ~ Supervise maintenance of plan
-- Train and educate employees
+- Train and educate employees   
 ~ distribute plan on need to know basis  
 ~ everyone should get at least an overview
 
@@ -383,29 +383,30 @@
 ### Business Continuity Plan Sub-Plans
 - 3 main purpose : 
 #### Protect
-~ Crisis Communication plan 
-~~ Disseminate necessary information
-~ occupant emergency plan  
-~~ provide coordinated procedures for minimizing loss of life or injury + protecting property damage in response to phtsical threat
+~ Crisis Communication plan   
+~~ Disseminate necessary information  
+~ occupant emergency plan   
+~~ provide coordinated procedures for minimizing loss of life or injury + protecting property damage in response to phtsical threat  
+
 #### Recover
 ~ Business recovery plan  
-~~ Provde procedures for recovering business operations immediately following a disaster
-~ Disaster recovery plan  
-~~ provide detailed procedures to facilitate recovery of capabilityies at an alternative
-~ Continuity of support plan / IT contingency plan
-~~ Provide procedures and capabilities for recovering a major application or general support system
-~ Cyber incident response plan
-~~ provide strategies to detect, respond to and limit consequences of malicious cyber incident
+~~ Provde procedures for recovering business operations immediately following a disaster  
+~ Disaster recovery plan   
+~~ provide detailed procedures to facilitate recovery of capabilityies at an alternative  
+~ Continuity of support plan / IT contingency plan  
+~~ Provide procedures and capabilities for recovering a major application or general support system  
+~ Cyber incident response plan  
+~~ provide strategies to detect, respond to and limit consequences of malicious cyber incident  
 ~~ focuses on information security responses to incidents affecting systems and networks
 
 #### Sustain
-~ Continuity of operations plan
-~~ provide procedures and capabilities to sustain an organization essential strategic functions ata an alternate site UP TO 30 days
-~~ Used in US gov
-~~ to adddress subset of an organization's missions that are deemed most critical , usually written at headquarters level , not IT focused
+~ Continuity of operations plan  
+~~ provide procedures and capabilities to sustain an organization essential strategic functions ata an alternate site UP TO 30 days  
+~~ Used in US gov  
+~~ to adddress subset of an organization's missions that are deemed most critical , usually written at headquarters level , not IT focused  
 
 #### Roles and Responsbilities
-- Senior Executive management
+- Senior Executive management  
 ~ Consitent support and final approval of plans  
 ~ Setting the business continuity policy   
 ~ Priorizing critcal business functions  
@@ -414,36 +415,36 @@
 ~ Directing and reviewing test results   
 ~ Ensuring maintenacne of a current plan  
 
-- Senior functional managemnet
+- Senior functional managemnet  
 ~ develop and document maintenance and testing strategy  
 ~ identify and prioritze mission-critical systems  
 ~ monitor progres of plan development and execution  
 ~ ensure periodic tests  
 ~ create the various teams necessary to execute the plans
 
-- BCP steering commitee
-~ Conduct the BIA
-~ coordinate with department representatives
+- BCP steering commitee  
+~ Conduct the BIA  
+~ coordinate with department representatives  
 ~ include [business units , senior manegement, it department, security department, communications department, legal department]
 
-- DRP teams 
-~ Rescue : Responsible for dealing with the immediacy of disaster - employee evacuation  
-~ Recovery : Responsible for getting alternate facility up and running and restoring the most critcal services first
-~ Salvage : Responsible for return of operations to original or permanent facility (reconstitution)
+- DRP teams  
+~ Rescue : Responsible for dealing with the immediacy of disaster - employee evacuation   
+~ Recovery : Responsible for getting alternate facility up and running and restoring the most critcal services first  
+~ Salvage : Responsible for return of operations to original or permanent facility (reconstitution)  
 
 ### Developing the teams 
-- Management should appoint members
+- Management should appoint members  
 - Each member must understand the goals of the plan and be familiar with department they responsible for  
-- Agreed upon prior to the event:
+- Agreed upon prior to the event :  
 ~ Who will talk to media , customers , shareholders   
 ~ Who will setup alternative communcication methods  
 ~ Who will setup the offsite facility  
 ~ Established agreements with off-site facilities should be in place  
-~  Who will work on the primary facility
+~ Who will work on the primary facility
 
 ## Disaster Recovery Planning
-- Minimize the effect of disaster and to take the necessary steps to ensure the resource, personnel and business processes are able to resume operations in a timely manner
-- Deals with the immediate aftermath of the disaster , and is often IT focused
+- Minimize the effect of disaster and to take the necessary steps to ensure the resource, personnel and business processes are able to resume operations in a timely manner  
+- Deals with the immediate aftermath of the disaster , and is often IT focused  
 
 ## Types of Tests 
 ### Checklist Test
@@ -456,25 +457,25 @@
 - Continues up to the actual relocation to an offsite facility
 ### Parallel Test
 - Systems moved to alternate site, and processing takes place there
-- Full-Interruption Test
-~ Original site shut down  
-~ All of processing moved to offsite facility
+- Full-Interruption Test  
+~ Original site shut down   
+~ All of processing moved to offsite facility  
 
 ## Post-incident review
-- After a test or disaster has taken place
+- After a test or disaster has taken place  
 ~ Focus on how to improve  
 ~ What should have happened  
-~ Not who's fault it was ; this is not productive  
+~ Not who's fault it was; this is not productive  
 
 ## Maintaining the BCP
-- Keeping plan in date
+- Keeping plan in date  
 ~ Make it a part of business meetings and decisions  
 ~ Centralize responsibility for updates  
 ~ Part of job description  
 ~ Personnel evaluations  
 ~ Report regularly  
 ~ Audits  
-~ As plans get revised , original copies should be retrieved and destroyed  
+~ As plans get revised, original copies should be retrieved and destroyed  
 
 ### 7 Security Operations Objectives
 - Incident Response, Evidence Collection and Forensics

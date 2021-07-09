@@ -15,38 +15,38 @@
 
 ### Cyptography throughout history
 - Caseser Cipher  
-~ Simply Shift the character e.g. A=D  
-- Scytale  
-~ Spartans   
-~ Wrapped tape around a rod  
-~ Diameter of rod = key  
-- Vignere  
-~ first polyalphabetic cipher  
-- Cyptography in warfare   
-~ enigma machine/purple machine  
-~ Germans/Japanese WWII  
-- Vernam Cipher    
-~ one time pad  
-~ only mathematically unbreakable form of cryptography  
-~ Key must be used only once
-~ Pad length MUST message length
-~ Key pad is unpredictable
-~ Key pad must delivered & stored securely
+~ Simply Shift the character e.g. A=D   
+- Scytale    
+~ Spartans    
+~ Wrapped tape around a rod    
+~ Diameter of rod = key   
+- Vignere   
+~ first polyalphabetic cipher    
+- Cyptography in warfare     
+~ enigma machine/purple machine    
+~ Germans/Japanese WWII    
+- Vernam Cipher      
+~ one time pad   
+~ only mathematically unbreakable form of cryptography   
+~ Key must be used only once  
+~ Pad length MUST message length  
+~ Key pad is unpredictable  
+~ Key pad must delivered & stored securely  
 
 ### Security Services provided by Cryptography
-- Privacy  
-~ Prevents unauthorized disclosure of info
-- Authenticity   
-~ Verifies the claimed identity
-- Integrity   
-~ Detects modification or corruption
-- Non-Repudiation   
-~ Combine auth+integ . Sender cant dispute
+- Privacy   
+~ Prevents unauthorized disclosure of info  
+- Authenticity    
+~ Verifies the claimed identity  
+- Integrity    
+~ Detects modification or corruption  
+- Non-Repudiation    
+~ Combine auth+integ . Sender cant dispute  
 
 #### Definitions + Concepts
-~ Plain Txt + Initialization Vector + Algo(Cipher) + Key = Cipher Txt
-- Initialization vector  
-~ different seed
+~ Plain Txt + Initialization Vector + Algo(Cipher) + Key = Cipher Txt  
+- Initialization vector    
+~ different seed  
 
 #### Elements Of Cryptography
 - Algo:  
@@ -76,37 +76,40 @@
 - System Architecture (overall design e.g. hardware , os , app , networks)
 
 #### Security Models
-- State Machine Model  
+- State Machine Model   
 ~ States: Startup , Function , Shutdown    
 ~ Startup is weak caz not much function is up and rookit can get in
 ~ Have to secure 3 ALL states
 
-- *** Bell-LaPadula Model   
+- *** Bell-LaPadula Model    
 ~ By David Elloit Bell / Len LaPaDuLa (US Government)  
 ~ Focues on data dconfidentiality + access to classfied info  
 ~ Formal Model developed for DoD multilevel  
 ~ Divides entities in info sys into Subjects / Objects  
 ~ Model is built on concept of State Machine Model  
 ~ 3 Rules to enforce confidentially
+~~~
 ##### Simple Security Property
 ~ No read up  
 ##### * Security Property
 ~ No write down  
 ##### Strong * Property
 ~ No read/write up or down (stay where you are)   
-
+~~~
 - *** Biba Integrity Model  
 ~ By Ken biba on set of access control rules ensure Integrity  
 ~ No subject can depend on object of lesser integrity  
 ~ hierachical lattice of integrity levels
 ~ authorized users must perform correct + safe procedures to protect data integrity  
 ~ 3 Rules to enforce integrity
+~~~
 ##### Simple integrity axiom  
 ~ No read down (dont trust lower integrity level stuff = dumb)  
 ##### * Integrity Property  
 ~ No write up (cant override something smarter than you)  
 ##### Invocation Property  
 ~  No read / write above
+~~~
 
 - Clark-Wilson  
 ~ Keep user out of your stuff prevent them breaking it  
@@ -114,16 +117,16 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 ~ Enforces well-formed transactions through the use of access triple:  
 ~ user -> transformation procedure -> Constrained Data Item  
 ~ 3 integrity goals (Separation of duties)
-##### Prevents unauthorized users from making modifications  
-##### Prevents authorized users from making improper modifications  
-##### Maintain internal+external consistency -> reinforces separation of duties
+   ##### Prevents unauthorized users from making modifications  
+   ##### Prevents authorized users from making improper modifications  
+   ##### Maintain internal+external consistency -> reinforces separation of duties  
 
-- Commercial Models: Brewer-Nash Model   
+- Commercial Models: Brewer-Nash Model    
 ~ a.k.a. Chinese Wall  
 ~ Developed to combat conflict of interest in db hhousing competitor information  
-~ in 1989 to ensure fair competition  
-~ defines a wall and set rules ensure no subject access objects on the other side of the wall  
-~way separating competitors data within same db  
+~ In 1989 to ensure fair competition  
+~ Defines a wall and set rules ensure no subject access objects on the other side of the wall  
+~ Way separating competitors data within same db  
 
 - Information Flow Model   
 ~ data compartmentalized based on classifcation and need to know
@@ -155,7 +158,7 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 ~ CPU Modes & Protection Rings  
 
 ##### Detail
-- Security mechanism creating boundaries between various processes ensure them do not affect each other  
+- Security mechanism creating boundaries between various processes ensure them do not affect each other   
 ~~ Ring 0 - Operating System Kernal    
 ~~ Ring 1 - Remaining parts of OS  
 ~~ Ring 2 - Operating system and I/O drivers and OS utilites   
@@ -167,8 +170,8 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 - Security Perimeter  
 - Reference Monitor (laws)  
 - Security Kernel (police) -: enforces refernce monitor concept   
-~ Kernel facilitate isolation of process . 
-~ kernel must be invoked at every access attempt
+~ Kernel facilitate isolation of process  
+~ kernel must be invoked at every access attempt  
 ~ kernel must be small enough to be tested and verified in comprehensive manner  
 - Security Policy = a set of rules on how resources are managed in system  
 - Least Priviledge - one process has no more priileges than it needs  
@@ -186,15 +189,15 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 - Trust vs Assurance  
 - CMMI
 - Orange Book(TCSEC)  
-~ by National computer security center
-~ based on bell-LaPadulla model(deals with only confidentiality)  
-~ Uses a hierarchically ordered series of evaluation classes
-~ Defines Trust and assurance
-- Orange book & rainbow series  
-~ A1 - Veriied Protection  
-~ B1,B2,B3 - Mandatory Protection  
-~ C1,C2 - Discretionary Protection  
-~ D - Min sec  
+~ by National computer security center  
+~ based on bell-LaPadulla model(deals with only confidentiality)    
+~ Uses a hierarchically ordered series of evaluation classes  
+~ Defines Trust and assurance  
+- Orange book & rainbow series   
+~ A1 - Veriied Protection    
+~ B1,B2,B3 - Mandatory Protection    
+~ C1,C2 - Discretionary Protection    
+~ D - Min sec   
 - ITSEC (1991   
 ~ F1 to F10 rates functionality (Trust)  
 ~ E0 to E6 rates assurance  

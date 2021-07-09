@@ -10,44 +10,43 @@
 - Common Vulnerabilities
 
 ## Vulnerability Assesments and Penetration Testing
-- Vulnerability Assessment (just starting point) 
-~ Physcial/ Administrative/ Logical
+- Vulnerability Assessment (just starting point)   
+~ Physcial/ Administrative/ Logical  
 ~ Identify weaknesses  
-- Penetration Testing  (test if those policy works?)
-~ Ethical hacking to validate discovered weakness  
-~ Red Teams(Attack)/ Blue Teams(Defend)  
-- NIST SP 800-42 Guideline on Security Testing  
-- ###Audit is just check if the system following the security policy  
+- Penetration Testing  (test if those policy works?)  
+~ Ethical hacking to validate discovered weakness   
+~ Red Teams(Attack)/ Blue Teams(Defend)   
+- NIST SP 800-42 Guideline on Security Testing   
+- ###Audit is just check if the system following the security policy    
 
 ## Degree of knowledge
-- Zero knowledge(Black box testing)  
-~ Team has no knowledge of target + Must start with only information that is publically available  
-~ Simulates an external attack  
-- Partial Knowledge  
-~ Team has limited knowledge of organization  
-- Full knowledge  
-~ Simulates internal attack  
-~ team has full knowledge of network operations  
+- Zero knowledge(Black box testing)   
+~ Team has no knowledge of target + Must start with only information that is publically available   
+~ Simulates an external attack    
+- Partial Knowledge   
+~ Team has limited knowledge of organization   
+- Full knowledge   
+~ Simulates internal attack    
+~ team has full knowledge of network operations   
 
 ## Vulnerability Scanning
-- Passive
-- Identifying  
+- Passive  
+- Identifying   
 ~ Active hosts on network  
 ~ Active and vulnerable services(ports) on hosts  
-~ Applications  
-~ OS  
-~ Vulnerabilities associated with discovered OS & applications  
-~ Misconfigured settings  
-- Testing compliance with host application usage/security policies 
-- Establishing a foundation for penetration testing  
+~ Applications    
+~ OS   
+~ Vulnerabilities associated with discovered OS & applications   
+~ Misconfigured settings   
+- Testing compliance with host application usage/security policies   
+- Establishing a foundation for penetration testing   
 
 ## Attack Methodology  
-
-1. Reconnaissance(偵察  
-~ Whole DB, Company Website, Job Search Engines, Social Networking  
-2. Footprinting(knowing the network)  
-~ mapping the network(Nmap), ICMP ping sweeps, DNS zone transfers  
-3. Fingerprinting(knowing about software)  
+1. Reconnaissance(偵察   
+~ Whole DB, Company Website, Job Search Engines, Social Networking   
+2. Footprinting(knowing the network)   
+~ mapping the network(Nmap), ICMP ping sweeps, DNS zone transfers   
+3. Fingerprinting(knowing about software)   
 ~ Identifying host information, Port scanning  e.g. OS TCP/IP is different handle
 4. Vulnerability assessment  
 ~ Identifiying weaknesses in system config/ Discovering unpatched software
@@ -87,7 +86,7 @@
 - Handling of info collected by pen test team
 
 ### Type of pen tests
-1. Physical Security
+1. Physical Security  
 ~ Access into building or department  
 ~ Wiring closets, locked file cabinets, offices, server room, sensitive areas  
 ~ Remove materials from building   
@@ -158,11 +157,11 @@
 - ALL ABOVE ACTIONS require going throgh proper change management procedures
 
 #### Watching network traffic 
-- Traffic analysis (side channel analysis)
+- Traffic analysis (side channel analysis)  
 ~ Watching traffic and its patterns to try and determine if something special is taking place  
 ~ e.g. lot of traffic between two military units may indicate that an attack is being planned   
 ~ e.g. traffic beween HR/Headquarters may indicate layoffs are around the corner  
-- Traffic padding
+- Traffic padding  
 ~ Generating spurious data in traffic to make traffic analysis more difficult e.g. sending out decoy attacks   
 ~ amount and nature of traffic may be masked  
 ~ attempt to keep traffic constant so no information can be gained
