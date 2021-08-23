@@ -180,7 +180,7 @@
 ~ action is taken to lessen frequencey/ impact of a risk  
 ~ may require the use of several controls until it reaches levels of risk acceptance or risk tolerance  
 
-- Examples
+- Examples  
 ~ strengthening overall risk management practices, e.g. implementing sufficiently mature risk management processes  
 ~ deploying new technical, management or operational controls that reduce either the likelihood or impact of and adverse event  
 ~ installing a new access control system  
@@ -351,9 +351,9 @@
 
 ###### Provisions and Processes
 - BCP designs the specific procedures necessary to mitigate risks to level that is acceptable to senior management
-- 3 assets : 
-~ People (1st prioirty)
-~ Buildings/Facilties (Hardening provisions)
+- 3 assets :   
+~ People (1st prioirty)  
+~ Buildings/Facilties (Hardening provisions)  
 ~ Infrastructure (Systems,e.g. failover)
 
 ###### Facility Recovery
@@ -457,9 +457,9 @@
 - Continues up to the actual relocation to an offsite facility
 ### Parallel Test
 - Systems moved to alternate site, and processing takes place there
-- Full-Interruption Test  
-~ Original site shut down   
-~ All of processing moved to offsite facility  
+### Full-Interruption Test  
+- Original site shut down   
+- All of processing moved to offsite facility  
 
 ## Post-incident review
 - After a test or disaster has taken place  

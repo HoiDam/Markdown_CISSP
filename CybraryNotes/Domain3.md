@@ -178,6 +178,7 @@ E.g amazon why dont let you access DB -> Caz you will break it + only front end 
 
 - Secure modes of operation (can be type 1+ type 2)   
 
+#### States
 ~ Single State  (only 1 level)   
 ~ Multi State  (different level e.g. top secret / secret / noormal)   
 
