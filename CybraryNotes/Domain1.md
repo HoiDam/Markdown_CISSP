@@ -1,6 +1,8 @@
 # Agenda Information Security and Risk Management
 20/06/2021 Cybrary
 - DR: https://acsense.com/blog/disaster-recovery-testing-a-comprehensive-guide/
+- ![image](https://github.com/HoiDam/Markdown_CISSP/assets/66233626/47d27c3b-3e1e-4c11-80a5-dd3dd9724b4f)
+
 
 ## Information Security Program
 - Provides the means for achieving strategy
