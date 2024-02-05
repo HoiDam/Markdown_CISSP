@@ -1,7 +1,6 @@
 # Agenda Information Security and Risk Management
 20/06/2021 Cybrary
--![Uploading image.png…]()
-
+- ![image](https://github.com/HoiDam/Markdown_CISSP/assets/66233626/1cc4a7ff-5731-4d0b-831c-454815ccd6b4)
 
 
 ## Asset Security
