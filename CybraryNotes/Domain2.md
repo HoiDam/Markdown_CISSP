@@ -1,7 +1,7 @@
 # Agenda Information Security and Risk Management
 20/06/2021 Cybrary
 - ![image](https://github.com/HoiDam/Markdown_CISSP/assets/66233626/1cc4a7ff-5731-4d0b-831c-454815ccd6b4)
-
+- https://www.studynotesandtheory.com/single-post/cissp-related-nist-documents 
 
 ## Asset Security
 - Asset Value and classification
