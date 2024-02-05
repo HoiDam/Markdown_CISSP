@@ -155,7 +155,7 @@
 
 ### Removing Data remnants
 - Disposal   
-~ Clearing, overwriting: renders data in accessible  
-~ Purging, degaussing: renders media unusable  
+~ Clearing, overwriting, Purging: renders data in accessible  
+~ Degaussing: renders media unusable  
 ~ Destruction, Physical destruction: irreversible by all known techniques
 
